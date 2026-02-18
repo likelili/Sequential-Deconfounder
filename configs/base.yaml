@@ -1,0 +1,9 @@
+samples_csv: data/raw/samples.csv
+users_csv: data/raw/users.csv
+features_csv: data/raw/features.csv
+behaviors_csv: data/raw/behavior_log.csv
+out_dir: data/processed
+exposure_start: "2017-05-05"
+exposure_end: "2017-05-12"
+max_users: null
+seed: 42

@@ -1,0 +1,9 @@
+data_npz: data/processed/dvae_inputs.npz
+model_ckpt: results/models/dvae.pt
+buy_csv: data/processed/buy.csv
+out_dir: results/effects
+fig_dir: results/figures
+quantile: 0.95
+quantiles: [0.05, 0.25, 0.5, 0.75, 0.95]
+qte_method: dual
+device: cuda

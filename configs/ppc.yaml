@@ -1,0 +1,11 @@
+data_npz: data/processed/dvae_inputs.npz
+model_ckpt: results/models/dvae.pt
+out_dir: results/ppc
+holdout_steps: 2
+device: cuda
+mask_type: time_varying
+holdout_frac: 0.1
+mask_seed: 0
+use_train_mask: true
+num_z_samples: 50
+batch_size: 128

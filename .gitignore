@@ -1,0 +1,13 @@
+.DS_Store
+__pycache__/
+
+# Data and large artifacts
+data/raw/
+data/processed/
+
+# Model checkpoints
+results/models/
+*.pt
+*.pth
+
+*.pdf
